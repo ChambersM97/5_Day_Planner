@@ -37,6 +37,7 @@ THEN each timeblock is color coded to indicate whether it is in the past, presen
 
 4. WHEN I click into a timeblock
 THEN I can enter an event
+DONE?
 
 5. WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
