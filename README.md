@@ -32,8 +32,20 @@ DONE
 THEN I am presented with timeblocks for standard business hours
 DONE
 
+
+
 3. WHEN I view the timeblocks for that day
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+
+        1. have a common selector between your different time blocks
+        2. loop over each one using jQuery
+        3. connect MomentJS to determine the current time
+        4. compare current time to the individual timeblock 
+        5. determine if time block is in past, present, or future
+        6. change color according to past = grey, current = red, future = green
+
+
+
 
 4. WHEN I click into a timeblock
 THEN I can enter an event
