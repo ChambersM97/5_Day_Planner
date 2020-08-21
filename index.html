@@ -30,7 +30,7 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 class="display-3">A Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
 
       <!-- The current time is going to be displayed through
@@ -47,6 +47,7 @@
           9AM
         </div>
         <!-- area in middle of textblock that allows the input of text -->
+        <!-- There is the common selector between all the containers -->
         <textarea class="col-md-10 description">
         </textarea>
         <!-- save button on the right side of the time block that once implemented will save our changes to the page -->
@@ -133,6 +134,7 @@
     // hour update not a big deal in terms of processing power
     // updates the time on a set interval, this case 1000 ms which is equal to 1 second
     var interval = setInterval (hourupdate, 1000);
+
 
     </script>
 

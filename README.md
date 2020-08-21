@@ -38,7 +38,9 @@ DONE
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 
         1. have a common selector between your different time blocks
+        DONE
         2. loop over each one using jQuery
+        
         3. connect MomentJS to determine the current time
         4. compare current time to the individual timeblock 
         5. determine if time block is in past, present, or future
